@@ -4,18 +4,20 @@
     <meta charset="UTF-8">
     <title>P1-Task</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap" rel="stylesheet">
 </head>
-<body>
+<body class="page">
     <header class="header">
-        <div class="container">
+        <div class="container container_header">
             <h1 class="header__site-name">Site Name</h1>
             <nav class="header__nav-bar">
                 <ul class="header__nav-list">
-                    <li class="header__nav-item header__nav-item_selected">Home</li>
-                    <li class="header__nav-item">About</li>
-                    <li class="header__nav-item">Services</li>
-                    <li class="header__nav-item">Portfolio</li>
-                    <li class="header__nav-item">Contact</li>
+                    <li class="header__nav-item header__nav-item_selected"><a href="" class="header__nav-link">Home</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">About</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Services</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Portfolio</a></li>
+                    <li class="header__nav-item"><a href="" class="header__nav-link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -23,10 +25,13 @@
     <section class="banner">
         <div class="container">
             <div class="banner__slider-buttons">
-                <button class="banner__slider-button-left"></button>
-                <button class="banner__slider-button-right"></button>
+                <button class="banner__slider-button banner__slider-button_left"></button>
+                <button class="banner__slider-button banner__slider-button_right"></button>
             </div>
-            <h2 class="banner__title">Clivuam tinc <hr class="banner__line"> Nunc dignissim risus id metus</h2>
+            <fieldset class="banner__fieldset">
+                <legend class="banner__legend"><h2 class="banner__title">Clivuam tinc</h2></legend>
+            </fieldset>
+            <h2 class="banner__subtitle">Nunc dignissim risus id metus</h2>
             <a class="banner__link" href="http://wallpaperswide.com/">http://wallpaperswide.com/</a>
         </div>
     </section>
@@ -158,9 +163,9 @@
                 <a href="" class="footer__sitemap-item">Contact</a>
             </div>
             <p class="footer__info">
-                <span class="footer__designer"></span>
-                <span class="footer__images-source"></span>
-                <span class="footer__copyright"></span>
+                <span class="footer__designer">Designed by: www.alltemplateneeds.com /</span>
+                <span class="footer__images-source">Images from: www.wallpaperswide.com /</span>
+                <span class="footer__copyright">Copyright(c) website name.</span>
             </p>
             <div class="footer__social">
                 <a href="" class="footer__social-link footer__social-link_facebook"></a>

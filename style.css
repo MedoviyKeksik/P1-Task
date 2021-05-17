@@ -1,0 +1,131 @@
+.page {
+    margin: 0;
+    padding: 0;
+    /* only for pixelperfect with image */
+    width: 1920px;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.container_header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header {
+    height: 80px;
+    background-color: #202628;
+}
+
+.header__site-name {
+    font-size: 25px;
+    font-weight: 300;
+    font-family: "Fjalla One", sans-serif;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    margin-top: 26px;
+}
+
+.header__nav-list {
+    margin: 0;
+    list-style-type: none;
+    display: flex;
+}
+
+.header__nav-item {
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    text-align: center;
+    height: 80px;
+    padding-right: 21.5px;
+    padding-left: 21.5px;
+    text-transform: uppercase;
+    font-family: "Fjalla One", sans-serif;
+    font-size: 13px;
+    font-weight: 200;
+    letter-spacing: 0.04em;
+}
+
+.header__nav-item:last-child {
+    padding-right: 10px;
+}
+
+.header__nav-item_selected {
+    background-color: #e84c3d;
+}
+
+.header__nav-link {
+    text-decoration: none;
+    color: #e7e7e7;
+}
+
+.banner {
+    height: 560px;
+    background-image: url('assets/img/banner.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner__slider-button {
+    margin-top: 290px;
+    box-sizing: content-box;
+    padding: 0;
+    width: 34px;
+    height: 71px;
+    background-color: transparent;
+    background-image: url('assets/img/banner-buttons.png');
+    background-repeat: no-repeat;
+    border: none;
+}
+
+.banner__slider-button_left {
+    background-position: 0 0;
+}
+
+.banner__slider-button_right {
+    margin-left: -3px;
+    background-position: -35px 0;
+}
+
+.banner__fieldset {
+    width: 458px;
+    padding: 0;
+    margin: 20px 0 0 -2px;
+    border: none;
+    border-top: 2px solid #e7e7e7;
+}
+
+.banner__title {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 31px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    margin: 0;
+    padding-right: 0.4em;
+}
+
+.banner__subtitle {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 31px;
+    color: #e7e7e7;
+    text-transform: uppercase;
+    font-weight: 300;
+    letter-spacing: 0.08em;
+    margin-top: 8px;
+    margin-bottom: 11px;
+    margin-left: -1px;
+}
+
+.banner__link {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 15px;
+    color: #e84c3d;
+    text-decoration: none;
+    letter-spacing: 0.08em;
+}
