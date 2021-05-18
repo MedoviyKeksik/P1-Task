@@ -143,8 +143,22 @@
 .achievements__item {
     width: 270px;
     margin: 0;
-    padding-top: 76px;
+    margin-top: 76px;
     padding-left: 100px;
+    background-repeat: no-repeat;
+    background-position: 0 5px;
+}
+
+.achievements__item_background_rocket {
+    background-image: url('assets/img/achievements-icons-rocket.png');
+}
+
+.achievements__item_background_shield {
+    background-image: url('assets/img/achievements-icons-shield.png');
+}
+
+.achievements__item_background_extinguisher {
+    background-image: url('assets/img/achievements-icons-extinguisher.png');
 }
 
 .achievements__item-title {
@@ -158,5 +172,96 @@
 }
 
 .achievements__item-description {
-    margin: 0;
+    margin-top: 20px;
+    font-family: "Lato", sans-serif;
+    word-wrap: break-word;
+    hyphens: auto;
+    font-size: 14px;
+    line-height: 24px;
+    color: #767c7e;
+}
+
+.achievements__item-link {
+    color: #e84c3d;
+    text-decoration: none;
+}
+
+.services {
+    padding-top: 78px;
+    padding-bottom: 80px;
+}
+
+.container_services {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__block {
+    width: 770px;
+}
+
+.services__title {
+    padding-left: 2px;
+    margin-top: 0px;
+    color: #202628;
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+}
+
+.services__subtitle {
+    margin-top: 23px;
+    padding-top: 6px;
+    padding-bottom: 9px;
+    margin-bottom: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    color: #e84c3d;
+    border-top: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+}
+
+.services__articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services__article {
+    width: 370px;
+}
+
+.services__article-title {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    line-height: 24px;
+    font-size: 16px;
+    color: #202628;
+    margin-top: 22px;
+    margin-bottom: 0;
+}
+
+.services__article-content {
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #767c7e;
+    margin-top: 4px;
+}
+
+.services__article-button {
+    margin-top: 19px;
+    font-family: "Oswald", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    width: 70px;
+    height: 37px;
+    background-color: #e84c3d;
+    border-radius: 18px;
+    border: none;
 }
