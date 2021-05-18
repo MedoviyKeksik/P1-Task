@@ -265,3 +265,93 @@
     border-radius: 18px;
     border: none;
 }
+
+.container_subscribe {
+    box-sizing: border-box;
+    background-color: #e84c3d;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 49px 30px 50px 30px;
+}
+
+.subscribe__responce {
+    display: flex;
+    width: 570px;
+}
+
+.subscribe__avatar {
+    margin: 0 0 auto 0;
+}
+
+.subscribe__person {
+    margin-left: 29px;
+}
+
+.subscribe__name {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: -4px 0 0 0px;
+}
+.subscribe__quote {
+    font-family: "Lato", sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #fff;
+    margin: 14px 0 0 0;
+}
+.subscribe__quote-author {
+    font-size: 14px;
+}
+
+.subscribe__form {
+    width: 510px;
+}
+
+.subscribe__form-title {
+    font-family: "Fjalla One", sans-serif;
+    font-weight: 300;
+    font-size: 21px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    margin: -4px 0 0 0;
+}
+
+.subscribe__email {
+    box-sizing: border-box;
+    color: #9faaad;
+    font-family: "Lato", sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    font-style: italic;
+    border: none;
+    height: 41px;
+    width: 380px;
+    border-radius: 20px;
+    margin: 25px 0 0 1px;
+    padding-left: 18px;
+}
+
+.subscribe__button {
+    font-family: "Fjalla One", sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #202628;
+    background-image: url('assets/img/subscribe-button-arrow.png');
+    background-repeat: no-repeat;
+    background-position: 85px 18px;
+    border: none;
+    border-radius: 20px;
+    padding-left: 21px;
+    text-align: left;
+    margin-left: 5px;
+    height: 41px;
+    width: 120px;
+}
