@@ -101,9 +101,19 @@
 
 .header__nav-link {
     text-decoration: none;
-
     color: #e7e7e7;
+    transition: color 0.1s ease-in-out;
 }
+
+.header__nav-link:hover {
+    color: #e84c3d;
+    text-decoration: underline;
+}
+
+.header__nav-item_selected > .header__nav-link:hover {
+    color: #202628;
+}
+
 
 .banner {
     height: 560px;
@@ -400,6 +410,13 @@
     border: none;
     border-radius: 18px;
     background-color: #e84c3d;
+    transition: color, background-color 0.3s ease-in-out; 
+}
+
+.portfolio__article-button:hover {
+    cursor: pointer;
+    background-color: #202628;
+    color: #e84c3d;
 }
 
 @media screen and (max-width: 1170px) {
@@ -554,6 +571,13 @@
     border: none;
     border-radius: 20px;
     background-color: #202628;
+    transition: color, background-color 0.3s ease-in-out;
+}
+
+.subscribe__button:hover {
+    cursor: pointer;
+    background-color: #e7e7e7;
+    color: #202628;
 }
 
 .subscribe__button-icon {
@@ -762,6 +786,14 @@
     border: none;
     border-radius: 20px;
     background-color: #e84c3d;
+
+    transition: color, background-color 0.3s ease-in-out;
+}
+
+.contact__button-submit:hover {
+    background-color: #202628;
+    color: #e84c3d;
+    position: pointer;
 }
 
 .contact__button-icon {
@@ -871,6 +903,12 @@
     text-decoration: none;
 
     color: #e7e7e7;
+    transition: color 0.1s ease-in-out;
+}
+
+.footer__sitemap-item:hover {
+    color: #e84c3d;
+    text-decoration: underline;
 }
 
 .footer__slash {
@@ -915,6 +953,12 @@
     text-align: center;
     box-sizing: border-box;
     padding-top: 10px;
+    transition: background-color, color 0.3s ease-in-out;
+}
+
+.footer__social-link:hover {
+    background-color: #fff;
+    color: #202628;
 }
 
 @media screen and (max-width: 1170px) {
