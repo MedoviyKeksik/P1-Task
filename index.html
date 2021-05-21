@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato:ital,wght@0,400;0,700;0,900;1,400&family=Oswald&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body class="page">
@@ -76,7 +78,9 @@
     <section class="subscribe">
         <div class="container container_subscribe">
             <div class="subscribe__responce">
-                <img src="assets/img/subscribe-avatar.png" alt="avatar" class="subscribe__avatar">
+            	<div class="subscribe__avatar">
+            		<i class="subscribe__icon fas fa-user"></i>
+            	</div>
                 <div class="subscribe__person">
                     <h3 class="subscribe__name">Donec nec justo eget</h4>
                     <p class="subscribe__quote"><q class="subscribe__quote-text"> Ede semper est, vitae luctus metus libero eu augue. Morb sipo
@@ -86,7 +90,7 @@
             <form action="" class="subscribe__form">
                 <h3 class="subscribe__form-title">Morbi vitae luctus</h3>   
                 <input type="email" class="subscribe__email" placeholder="enter your email id here ...">
-                <button class="subscribe__button">subcribe</button>
+                <button class="subscribe__button">subcribe<i class="subscribe__button-icon fas fa-long-arrow-alt-right"></i></button>
             </form>
         </div>
     </section>
@@ -123,7 +127,7 @@
                         <input type="text" class="contact__input-name" placeholder="name ...">
                         <input type="email" class="contact__input-email" placeholder="email ...">
                         <textarea cols="30" rows="10" class="contact__input-query" placeholder="your query ..."></textarea>
-                        <button type="submit" class="contact__button-submit">send</button>
+                        <button type="submit" class="contact__button-submit">send<i class="contact__button-icon fas fa-long-arrow-alt-right"></i></button>
                     </form>
                 </div>
             </div>
@@ -131,6 +135,7 @@
                 <h3 class="contact__column-title">Aliquam tincidunt</h3>
                 <div class="contact__column-content">
                     <div class="contact__row contact__contacts contact__contacts_address">
+                    	<i class="contact__icon fas fa-home"></i>
                         <h4 class="contact__name">Address</h4>
                         <p class="contact__content">
                             some block, steet number, city name, <br>
@@ -138,6 +143,7 @@
                         </p>
                     </div>
                     <div class="contact__row contact__contacts contact__contacts_phone">
+                    	<i class="contact__icon fas fa-phone-square-alt"></i>
                         <h4 class="contact__name">Phone</h4>
                         <p class="contact__content">
                             <a href="tel:(000) 777 777 7777" class="contact__phone-link">(000) 777 777 7777</a>
@@ -145,6 +151,7 @@
                         </p>
                     </div>
                     <div class="contact__row contact__contacts contact__contacts_email">
+                    	<i class="contact__icon fas fa-envelope"></i>
                         <h4 class="contact__name">Email us</h4>
                         <p class="contact__content">
                             <a href="mailto:info@siteneme.com" class="contact__email-link">info@siteneme.com</a>
@@ -177,9 +184,9 @@
                 </p>
             </div>
             <div class="footer__social">
-                <a href="" class="footer__social-link footer__social-link_facebook"></a>
-                <a href="" class="footer__social-link footer__social-link_twitter"></a>
-                <a href="" class="footer__social-link footer__social-link_linkedin"></a>
+                <a href="" class="footer__social-link footer__social-link_facebook"><i class="footer__icon fab fa-facebook-f"></i></a>
+                <a href="" class="footer__social-link footer__social-link_twitter"><i class="footer__icon fab fa-twitter"></i></a>
+                <a href="" class="footer__social-link footer__social-link_linkedin"><i class="footer__icon fab fa-linkedin-in"></i></a>
             </div>
         </div>
     </footer>
