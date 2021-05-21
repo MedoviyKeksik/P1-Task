@@ -888,14 +888,17 @@
 }
 
 .footer__social-link {
+    font-size: 18px;
     display: block;
-
     width: 43px;
     height: 43px;
     margin: 0 5px;
-
-    background-image: url('assets/img/social-icons.png');
-    background-repeat: no-repeat;
+    border-radius: 50%;
+    background-color: #e84c3d;
+    color: white;
+    text-align: center;
+    box-sizing: border-box;
+    padding-top: 10px;
 }
 
 @media screen and (max-width: 1170px) {
@@ -904,12 +907,6 @@
     }
 }
 
-.footer__social-link_twitter {
-    background-position: -43px 0;
-}
-
 .footer__social-link_linkedin {
     margin-right: 0;
-
-    background-position: -86px 0;
 }
