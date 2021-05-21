@@ -448,6 +448,16 @@
 }
 
 .subscribe__avatar {
+    background-color: #202628;
+    color: #fff;
+    min-width: 70px;
+    width: 70px;
+    height: 70px;
+    font-size: 26px;
+    text-align: center;
+    padding-top: 20px;
+    box-sizing: border-box;
+    border-radius: 50%;
     margin: 0 0 auto 0;
 }
 
@@ -544,9 +554,10 @@
     border: none;
     border-radius: 20px;
     background-color: #202628;
-    background-image: url('assets/img/right-arrow.png');
-    background-repeat: no-repeat;
-    background-position: 85px 18px;
+}
+
+.subscribe__button-icon {
+    margin-left: 4px;
 }
 
 @media screen and (max-width: 600px) {
@@ -751,9 +762,10 @@
     border: none;
     border-radius: 20px;
     background-color: #e84c3d;
-    background-image: url('assets/img/right-arrow.png');
-    background-repeat: no-repeat;
-    background-position: 65px 17px;
+}
+
+.contact__button-icon {
+    margin-left: 14px;
 }
 
 .contact__contacts {
